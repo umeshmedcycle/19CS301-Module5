@@ -64,7 +64,7 @@ class student:
     def __del__(self):
         print("Inside destructor")
         print("Object destroyed")
-s2=student()
+student2=student()
 del s2
 ```
 ### OUTPUT
